@@ -1,0 +1,5 @@
+timeline = gsap.timeline({ defaults: { ease: "power2.out" } })
+timeline.to(".header", { y: "0%", opacity: 1, duration: 1 })
+timeline.to(".left-col", { x: "0%", opacity: 1, duration: 1.2 }, "-=.5")
+timeline.to(".right-col", { x: "0%", opacity: 1, duration: 1 }, "-=1")
+timeline.to(".skills-list", { opacity: 1, duration: 1, delay: .5})
